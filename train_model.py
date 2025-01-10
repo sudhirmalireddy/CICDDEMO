@@ -9,7 +9,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 
 sns.set(style='white')
 
-data = pd.read_csv(r'C:\Users\A3MAX SOFTWARE TECH\A VS CODE\CICD\iris.csv')
+data = pd.read_csv(r'iris.csv')
 X = data.drop('Species', axis=1)  # Features
 y = data['Species']  # Target
 
